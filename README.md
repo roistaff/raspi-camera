@@ -12,12 +12,18 @@ clone repo pc and raspi
 in raspberrypi:
 ```
 sudo chmod +rwx image_server.sh
-bash image_server.sh
+./image_server.sh
 ```
 in desktop pc:
 ```
-bash client.sh
-fbi /raspi-camera/images/output.jpeg
+sudo +rwx client.sh
+./client.sh
+fbi /images/output.jpeg
 ```
+if you need to decide hostname:
+```
+./client.sh your_hostname
+```
+default hostname is "raspberrypi.local"
 
 __in development__
