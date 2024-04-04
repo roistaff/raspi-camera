@@ -8,6 +8,7 @@ sudo apt-get install netcat xxd fswebcam
 - desktop
 - raspi
 # how to use
+clone repo pc and raspi
 in raspberrypi:
 ```
 sudo chmod +rwx image_server.sh
