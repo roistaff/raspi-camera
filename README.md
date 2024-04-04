@@ -1,4 +1,5 @@
 # raspi-camera
+shell only!!! raspi-webcamera-photo-server
 # requirements
 ```
 sudo apt-get install netcat xxd fswebcam
