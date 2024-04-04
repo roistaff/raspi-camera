@@ -18,8 +18,8 @@ in desktop pc:
 ```
 sudo +rwx client.sh
 ./client.sh
-fbi /images/output.jpeg
 ```
+output file in /images directory.
 if you need to decide hostname:
 ```
 ./client.sh your_hostname
